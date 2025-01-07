@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- AdSense 验证代码 -->
+    <meta name="google-adsense-account" content="ca-pub-8006497506432690">
+    <!-- AdSense 全局代码 -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8006497506432690"
+     crossorigin="anonymous"></script>
     <title>桃子的博客</title>
     <style>
         body {
@@ -104,6 +109,13 @@
             margin-top: 4rem;
         }
 
+        /* 广告容器样式 */
+        .ad-container {
+            margin: 2rem 0;
+            text-align: center;
+            min-height: 250px;
+        }
+
         @media (max-width: 768px) {
             .nav {
                 flex-direction: column;
@@ -131,6 +143,19 @@
     </header>
 
     <main class="main">
+        <!-- 顶部广告位 -->
+        <div class="ad-container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-8006497506432690"
+                 data-ad-slot="自动广告"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
         <article class="article">
             <a href="post1.html" class="article-title">我的第一篇博客</a>
             <div class="article-meta">发布于 2024年3月20日</div>
@@ -139,6 +164,18 @@
             </p>
             <a href="post1.html" class="read-more">继续阅读 →</a>
         </article>
+
+        <!-- 文章间广告位 -->
+        <div class="ad-container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-8006497506432690"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
 
         <article class="article">
             <a href="post2.html" class="article-title">春天的记忆</a>
